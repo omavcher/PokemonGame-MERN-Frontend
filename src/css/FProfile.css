@@ -1,0 +1,90 @@
+/* src/css/FFprofile.css */
+.Fprofile-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    margin-top: 5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.Fprofile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f28c28;
+    padding-bottom: 10px;
+}
+
+.Fprofile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #f28c28;
+}
+
+.Fprofile-header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.Fprofile-info {
+    padding: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Fprofile-info h3 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color: #f28c28;
+    border-bottom: 1px solid #f28c28;
+    padding-bottom: 5px;
+}
+
+.Fprofile-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Optional: Add some responsive styling */
+@media (max-width: 768px) {
+    .Fprofile-container {
+        padding: 10px;
+        margin-top: 2rem;
+    }
+    
+    .Fprofile-avatar {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .Fprofile-header h1 {
+        font-size: 24px;
+    }
+    
+    .Fprofile-info h3 {
+        font-size: 18px;
+    }
+    
+    .Fprofile-info p {
+        font-size: 14px;
+    }
+}

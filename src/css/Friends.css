@@ -1,0 +1,132 @@
+/* Friends.css */
+.friends-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000;
+  }
+  
+  .friends-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .friends-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .search-bar {
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #f5f5f5;
+    font-size: 16px;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 10px 10px;
+  }
+  
+  .friend-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .friend-dp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .friend-info h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .friend-info p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #7a7a7a;
+  }
+  
+  .message-icon, .video-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .add-player-btn {
+    margin-left: auto;
+    padding: 6px 12px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .add-player-btn:hover {
+    background-color: #357ab8;
+  }
+  .player-avatar,
+.friend-avatar {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border-radius: 50%; /* To make it circular */
+  margin-right: 10px; /* Space between image and text */
+}
+.add-friend-button {
+  background-color: #c62828;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-friend-button:hover {
+  background-color: #ef1212;
+}
+
+.friend-button {
+  background-color: #f1f1f1;
+  color: #888;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+/* Friends.css */
+.friend-card-link {
+  text-decoration: none;
+  color: inherit; /* Ensures that the text color is inherited from the parent element */
+}
+
+.friend-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #fff; /* Adjust the background color if needed */
+  transition: background-color 0.3s;
+}
+
+.friend-card:hover {
+  background-color: #f5f5f5; /* Change the background color on hover */
+}

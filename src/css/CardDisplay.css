@@ -1,0 +1,38 @@
+.card-search {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-search input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .card-search button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .card-results {
+    margin-top: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+    F
+    width: 150px;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .error {
+    color: red;
+  }
+  

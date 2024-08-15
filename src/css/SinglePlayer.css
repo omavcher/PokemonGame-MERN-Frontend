@@ -1,0 +1,49 @@
+.single-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    text-align: center;
+  }
+  
+  .card-container, .computer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .selected {
+    border-color: #d84303;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .info-display {
+    margin-top: 20px;
+  }
+  
