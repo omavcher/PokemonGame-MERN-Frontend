@@ -55,7 +55,7 @@ export default function Navbar() {
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await axios.get(`https://pokemon-game-mern-backend-om.vercel.app/api/v1/user-info`, {
+        const response = await axios.get(`api/v1/user-info`, {
           headers: {
             id: localStorage.getItem('id'),
             authorization: `Bearer ${localStorage.getItem('token')}`,
